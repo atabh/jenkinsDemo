@@ -49,5 +49,4 @@ apply plugin: 'net.saliman.cobertura'
 cobertura {
     coverageFormats = [ 'xml', 'html' ]
     coverageMergeDatafiles = subprojects.collect { new File(it.projectDir, '/build/cobertura/cobertura.ser') }
->>>>>>> fdb6e73146c6314588d1b5ffd9a1293f8b1f6760
 }
