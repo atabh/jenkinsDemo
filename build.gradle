@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 apply plugin : 'war'
 
 task wrapper(type: Wrapper) {
 	gradleVersion = '2.1'
-=======
 // For Cobertura pulling in
 /* 2.1 */
 plugins {
